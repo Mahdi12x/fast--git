@@ -121,3 +121,5 @@ array[5] = 2
 // let out = time.toDateString()
 // let out = time.setDate(20)
 // console.log(time);
+
+console.log("Hello GitHub");
