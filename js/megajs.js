@@ -37,28 +37,28 @@
 
 // array = [14, "Mahdi", 11.212, true]
 // array = new Array(22, 31, 44, "11")
-let name = "Mahdi";
+// let name = "Mahdi";
 
-let s = `
-<h3>
-Hello ${name}<br><br>
- this is Testing JavaScrip
-</h3>
+// let s = `
+// <h3>
+// Hello ${name}<br><br>
+//  this is Testing JavaScrip
+// </h3>
 
-`;
+// `;
 
-let app = document.getElementById("app");
-app.innerHTML = s
+// let app = document.getElementById("app");
+// app.innerHTML = s
 
 
 
-let array = [22, 11, 41, 422, 14, 1]
+// let array = [22, 11, 41, 422, 14, 1]
 
-let log;
+// let log;
 
-array[2] = 5
-array[5] = 2
-    // log = Array.isArray(array)
+// array[2] = 5
+// array[5] = 2
+// log = Array.isArray(array)
 
 // log = array.length
 
@@ -122,4 +122,40 @@ array[5] = 2
 // let out = time.setDate(20)
 // console.log(time);
 
-console.log("Hello GitHub");
+// console.log("Hello GitHub");
+
+// let grade = 22;
+
+// switch (true) {
+//     case (grade <= 20 && grade >= 18):
+//         console.log("Well Done!");
+//         break;
+//     case (grade <= 18 && grade >= 15):
+//         console.log("Nice !");
+//         break;
+
+//     case (grade <= 15 || grade >= 10):
+//         console.log("Try More !");
+//         break;
+
+//     default:
+//         if ((grade < 20 || grade == 0)) {
+//             console.log("Put a valid Grade");
+//         }
+//         break;
+
+
+// }
+
+let favoriteFruits = [
+    "Kiwi",
+    "Orange",
+    "Bananna",
+    "Watermellon",
+    "Apple",
+]
+
+console.log(favoriteFruits);
+favoriteFruits.forEach(function(fruit, num) {
+    console.log(`${num} Favorite :${fruit}`);
+});
