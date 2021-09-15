@@ -147,15 +147,29 @@
 
 // }
 
-let favoriteFruits = [
-    "Kiwi",
-    "Orange",
-    "Bananna",
-    "Watermellon",
-    "Apple",
-]
+// let favoriteFruits = [
+//     "Kiwi",
+//     "Orange",
+//     "Bananna",
+//     "Watermellon",
+//     "Apple",
+// ]
 
-console.log(favoriteFruits);
-favoriteFruits.forEach(function(fruit, num) {
-    console.log(`${num} Favorite :${fruit}`);
-});
+// console.log(favoriteFruits);
+// favoriteFruits.forEach(function(fruit, num) {
+//     console.log(`${num} Favorite :${fruit}`);
+// });
+var head = document.getElementById("app")
+
+
+head.innerHTML = `<h3>
+Mohsen Hamomi
+</h3>`
+head.style.color = 'red'
+head.style.backgroundColor = 'skyblue'
+head.style.display = "flex"
+
+var om = document.querySelector(".head")
+om.style.color = "blue"
+    // om.style.fontSize = "large"
+console.log(head);
