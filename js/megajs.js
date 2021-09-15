@@ -159,6 +159,7 @@
 // favoriteFruits.forEach(function(fruit, num) {
 //     console.log(`${num} Favorite :${fruit}`);
 // });
+<<<<<<< HEAD
 var head = document.getElementById("app")
 
 
@@ -173,3 +174,30 @@ var om = document.querySelector(".head")
 om.style.color = "blue"
     // om.style.fontSize = "large"
 console.log(head);
+=======
+// var head = document.getElementById("app")
+
+
+// head.innerHTML = `<h3>
+// Mohsen Hamomi
+// </h3>`
+// head.style.color = 'red'
+// head.style.backgroundColor = 'skyblue'
+// head.style.display = "flex"
+
+// var om = document.querySelector(".head")
+// om.style.color = "blue"
+//     // om.style.fontSize = "large"
+// console.log(head);
+
+
+// let nav = document.getElementById("h1")
+
+// var head = document.querySelector("#head").children[1]
+
+
+
+// head.style.color = "white"
+// head.style.backgroundColor = "gray"
+// console.log(leg);
+>>>>>>> develop
