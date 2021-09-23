@@ -159,22 +159,21 @@
 // favoriteFruits.forEach(function(fruit, num) {
 //     console.log(`${num} Favorite :${fruit}`);
 // });
-<<<<<<< HEAD
-var head = document.getElementById("app")
+// <<<<<<< HEAD
+// var head = document.getElementById("app")
 
 
-head.innerHTML = `<h3>
-Mohsen Hamomi
-</h3>`
-head.style.color = 'red'
-head.style.backgroundColor = 'skyblue'
-head.style.display = "flex"
+// head.innerHTML = `<h3>
+// Mohsen Hamomi
+// </h3>`
+// head.style.color = 'red'
+// head.style.backgroundColor = 'skyblue'
+// head.style.display = "flex"
 
-var om = document.querySelector(".head")
-om.style.color = "blue"
-    // om.style.fontSize = "large"
-console.log(head);
-=======
+// var om = document.querySelector(".head")
+// om.style.color = "blue"
+//     // om.style.fontSize = "large"
+// console.log(head);
 // var head = document.getElementById("app")
 
 
@@ -200,4 +199,39 @@ console.log(head);
 // head.style.color = "white"
 // head.style.backgroundColor = "gray"
 // console.log(leg);
->>>>>>> develop
+// >>>>>>> develop
+
+// // let data = document.querySelector(".head")
+
+// // let duplicate = document.createElement("h1");
+// // duplicate.className = "h1";
+// // duplicate.textContent = "Hello"
+// // duplicate.style.color = "skyblue"
+// //     // duplicate = document.appendChild(duplicate)
+
+// // document.querySelector(".head").appendChild(duplicate)
+
+// // console.log(duplicate);
+
+// // let head = document.querySelector("#h1")
+// // head.remove()
+// // console.log(head);
+// let data = document.querySelector("#app");
+
+// data.appendChild(document.createTextNode("Application"))
+// data.style.fontSize = "72px"
+
+// const h2 = document.createElement("h3");
+// h2.classList.add("app")
+// h2.id = "Mahdi";
+// h2.textContent = "Mahdi"
+// h2.style.fontSize = "48px"
+// const app = document.querySelector("#app")
+// let parent = app.parentElement
+// parent.replaceChild(h2, app)
+// console.log(h2);
+// console.log(parent);
+// console.log(app);
+let app = document.querySelector("h1")
+app.id = "appli"
+console.log(app);
